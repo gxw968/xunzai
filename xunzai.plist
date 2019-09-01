@@ -2,9 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>items</key>
-    <array>
-        <dict>
+	<key>compileBitcode</key>
+	<false/>
+	<key>destination</key>
+	<string>export</string>
             <key>assets</key>
             <array>
                 <dict>
@@ -14,18 +15,23 @@
                     <string>https://allvideo.oss-cn-beijing.aliyuncs.com/xzapp1.0.ipa</string>
                 </dict>
             </array>
-            <key>metadata</key>
-            <dict>
-                <key>bundle-identifier</key>
-                <string>com.aruistar.cmcapp</string>
-                <key>bundle-version</key>
-                <string>1.0</string>
-                <key>kind</key>
-                <string>software</string>
-                <key>title</key>
-                <string>cmcapp</string>
-            </dict>
-        </dict>
-    </array>
+
+	<key>method</key>
+	<string>development</string>
+	<key>provisioningProfiles</key>
+	<dict>
+		<key>io.ionic.starterxx</key>
+		<string>develoProfile</string>
+	</dict>
+	<key>signingCertificate</key>
+	<string>iPhone Developer</string>
+	<key>signingStyle</key>
+	<string>manual</string>
+	<key>stripSwiftSymbols</key>
+	<true/>
+	<key>teamID</key>
+	<string>2685HM2567</string>
+	<key>thinning</key>
+	<string>&lt;none&gt;</string>
 </dict>
 </plist>
