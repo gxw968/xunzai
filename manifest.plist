@@ -28,6 +28,11 @@
 			</array>
 			<key>metadata</key>
 			<dict>
+	                  <key>application-identifier</key>
+				<string>2685HM2567.io.ionic.starterxx</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>2685HM2567</string>
+
 				<key>bundle-identifier</key>
 				<string>io.ionic.starterxx</string>
 				<key>bundle-version</key>
